@@ -8,22 +8,37 @@ Created: 15-April-2021
 Abstract
 ========
 
-Short description....
+This document summarizes different tools to easily monitor and diagnosse ROS systems
 
-Section AAAA
+diagnostics
+============
+
+The diagnostics system is designed to collect information from hardware drivers and robot hardware to users and operators for analysis, troubleshooting, and logging. The diagnostics stack contains tools for collecting, publishing, analyzing and viewing diagnostics data.
+
+The diagnostics toolchain is built around the global topic /diagnostics. The diagnostic_updater and self_test packages allow nodes to collect and publish diagnostics data. The diagnostic_aggregator can categorize and analyze diagnostics at runtime. Operators and developers can view the diagnostics data using the rqt_robot_monitor package. The diagnostic_analysis package can convert diagnostics logs to CSV files for examination and after-the-fact analysis. 
+
+this package can be considered the standard ROS monitoring package. Being the diagnostic_msgs/DiagnosticArray interface the recommended common one to publish the status of the components during the execution of the application.
+
+Link: http://wiki.ros.org/diagnostics
+
+cob_monitoring
 =============
 
-Sub-section AAAAA
-----------------
+the cob_monitoring package includes a series of python scripts for monitoring the system on which the software is running. Among the aspects it covers are:
 
-....
+- Robot's battery (battery_monitor.py )
+- CPU usage of each computer (cpu_monitor.py)
+- memory usage of each computer (hd_monitor.py)
+- monitoring of topical publishing frequency (hz_monitor.py)
+- Monitoring of the network (net_monitor.py, wlan_monitor.py , wifi_monitor.py)
+- Time synchronisation between computers (ntp_monitor.py)
+- Robot emergency (emergency_stop_monitor.py)
 
-Sub-section AAAAAA
-----------------
+All these scripts are generic, can be configured using a yaml file and publish the standard ROS diagnostic message diagnostic_msgs/DiagnosticArray http://docs.ros.org/en/api/diagnostic_msgs/html/msg/DiagnosticArray.html allowing the use of all the tools in the diagnotics package (http://wiki.ros.org/diagnostics).
 
-....
+Link: https://github.com/ipa320/cob_command_tools/tree/indigo_dev/cob_monitoring
 
-Section BBBB
+rosgraph_monitor
 =============
 
 Sub-section BBBBB
@@ -50,38 +65,26 @@ Rationale
 Compatibility
 =======================
 
-Was developed for a concrete DISTRO? 
-Is it compatble with ROS and ROS2?
+The monitoring software was developed for ROS1.
 
-
-Software updates to support other distros or systems
-----------------------------------------------------
-
-(optional section, only if relevant)
 
 
 Bugs and limitations
 ====================
 
-Known bugs or limitations. 
-
-ideas about potential improvements?
-
-Reference implementation
-========================
-
-
-Link to code and instructions to install and run the feature or tool
 
 
 References
 ==========
 
-.. [#fhs] ROS
-   (https://www.ros.org)
+.. [#fhs] cob_monitoring
+   (https://github.com/ipa320/cob_command_tools/tree/indigo_dev/cob_monitoring)
 
-.. [#fhs] Relavant discourse discussion
-   (https://discourse.ros.org/....)
+.. [#fhs] ROS diagnotics
+   (http://wiki.ros.org/diagnostics)
+
+.. [#fhs] ROSgraph monitor
+   (https://github.com/ipa320/rosgraph_monitor)
    
 Copyright
 =========
