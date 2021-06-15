@@ -41,6 +41,15 @@ Link: https://github.com/ipa320/cob_command_tools/tree/indigo_dev/cob_monitoring
 rosgraph_monitor
 =============
 
+`rosgraph_monitor` is a runtime monitoring tool, which can be used to create observers to monitor different aspects of a running ROS system. This tool is directly linked to [ROS models](https://github.com/ipa320/ros-model).  
+`ROSGraphObserver` is an observer available by default. It generates a `RosSystem` model by taking a snapshot of the ROS graph, which is compared with the desired `RosSystem` model of base application. It publishes a diagnostic error message in case a difference is detected.
+Other "property observers" can be created with custom logic to monitor sensitive properties during runtime. The scripts that are part of this package are:
+
+- main script to load / unload the available observers (`monitor`)
+- create and dump `RosSystem` snapshot of running ROS system (`rossystem_snapshot`)
+
+Link: https://github.com/ipa320/rosgraph_monitor
+
 Sub-section BBBBB
 ----------------
 
