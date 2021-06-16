@@ -1,9 +1,9 @@
-Title: Upstart setup to automatically run a ROS system on boot 
-Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
-Status: Active
-Type: Tool
-Content-Type: text/x-rst
-Created: 15-April-2021
+| Title: Upstart setup to automatically run a ROS system on boot 
+| Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
+| Status: Active
+| Type: Tool
+| Content-Type: text/x-rst
+| Created: 15-April-2021
 
 Abstract
 ========

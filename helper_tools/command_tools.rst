@@ -1,9 +1,9 @@
-Title: Tools to easily command the robot actuators
-Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
-Status: Active
-Type: Tool
-Content-Type: text/x-rst
-Created: 15-April-2021
+| Title: Tools to easily command the robot actuators
+| Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
+| Status: Active
+| Type: Tool
+| Content-Type: text/x-rst
+| Created: 15-April-2021
 
 Abstract
 ========

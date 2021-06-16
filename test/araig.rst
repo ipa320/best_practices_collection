@@ -1,9 +1,9 @@
-Title: A Testing Tool for ARAIG
-Author: Ruichao Wu <ruichao.wu@ipa.fraunhofer.de>
-Status: Active
-Type: Tool
-Content-Type: text/x-rst
-Created: 28-May-2021
+| Title: Testing Tool (from ARAIG project)
+| Author: Ruichao Wu <ruichao.wu@ipa.fraunhofer.de>
+| Status: Active
+| Type: Tool
+| Content-Type: text/x-rst
+| Created: 28-May-2021
 
 Abstract
 ========

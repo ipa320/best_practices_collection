@@ -1,9 +1,9 @@
-Title: How to set the ports of the hardware devices
-Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
-Status: Active
-Type: Informational
-Content-Type: text/x-rst
-Created: 14-April-2021
+| Title: How to set the ports of the hardware devices
+| Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
+| Status: Active
+| Type: Informational
+| Content-Type: text/x-rst
+| Created: 14-April-2021
 
 Abstract
 ========

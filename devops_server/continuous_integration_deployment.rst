@@ -1,9 +1,9 @@
-Title: Continuous integration and deployment
-Author: Ruichao Wu <ruichao.wu@ipa.fraunhofer.de>
-Status: Active / Inactive
-Type: Informational
-Content-Type: text/x-rst
-Created: 16-April-2021
+| Title: Continuous integration and deployment
+| Author: Ruichao Wu <ruichao.wu@ipa.fraunhofer.de>
+| Status: Active 
+| Type: Informational
+| Content-Type: text/x-rst
+| Created: 16-April-2021
 
 Abstract
 ========

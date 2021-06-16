@@ -1,7 +1,7 @@
-| Title: Open-sourcing code
+| Title: Process to open-source existing code
 | Author: Nadia Hammoudeh Garcia <nhg@ipa.fraunhofer.de>
 | Status: Active
-| Type: trong recommendation 
+| Type: Strong recommendation 
 | Content-Type: text/x-rst
 | Created: 15-June-2021
 

@@ -1,9 +1,9 @@
-Title: How to define a modular architecture for a fleet robot (e.g. Care-O-bot 4)
-Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
-Status: Active
-Type: Informational
-Content-Type: text/x-rst
-Created: 15-April-2021
+| Title: How to define a modular architecture for a fleet robot (e.g. Care-O-bot 4)
+| Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
+| Status: Active
+| Type: Informational
+| Content-Type: text/x-rst
+| Created: 15-April-2021
 
 Abstract
 ========

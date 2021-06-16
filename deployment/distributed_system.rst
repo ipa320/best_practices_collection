@@ -1,9 +1,9 @@
-Title: How to install automatically a distributed robot system with several PCS
-Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
-Status: Active
-Type: Informational
-Content-Type: text/x-rst
-Created: 14-April-2021
+| Title: How to install automatically a distributed robot system with several PCS
+| Author: Nadia Hammoudeh Garcia <nadia.hammoudeh.garcia@ipa.fraunhofer.de>
+| Status: Active
+| Type: Informational
+| Content-Type: text/x-rst
+| Created: 14-April-2021
 
 Abstract
 ========
