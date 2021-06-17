@@ -50,15 +50,6 @@ Other "property observers" can be created with custom logic to monitor sensitive
 
 Link: https://github.com/ipa320/rosgraph_monitor
 
-Sub-section BBBBB
-----------------
-
-....
-
-Sub-section BBBBBB
-----------------
-
-....
 
 Motivation
 ==========
